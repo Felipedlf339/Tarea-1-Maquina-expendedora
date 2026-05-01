@@ -1,6 +1,5 @@
 package org.example;
 
-import java.util.Enumeration;
 
 public class Expendedor {
     //Depositos genéricos para cada tipo de producto

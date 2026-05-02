@@ -43,7 +43,7 @@ public class Expendedor {
      * @trhows PagoInsuficienteException si el valor de la moneda es menor al precio.
      */
     public Producto comprarProducto(Moneda m, Catalogo cual)
-            throws PagoIncorrectoException, NohayProductoException, PagoInsuficienteException {
+            throws PagoIncorrectoException, NoHayProductoException, PagoInsuficienteException {
 
         //Primero se valida si la moneda existe
         if (m == null) {
@@ -68,7 +68,7 @@ public class Expendedor {
         //Se valida el Stock.
         if (p == null) {
             monVuelto.add(m); //Se devuelve la misma moneda.
-            throw new NohayProductoException("Error: No queda stock de " + cual.name());
+            throw new NoHayProductoException("Error: No queda stock de " + cual.name());
         }
 
         //Y finalmente se genera el vuelto en monedas de $100.

@@ -13,8 +13,8 @@ public class Expendedor {
     private Deposito<Moneda> monVuelto;
 
     /**
-     * Constrctor que llena los depósitos
-     * @param numProductos cantudad inicial para cada producto.
+     * Constructor que llena los depósitos
+     * @param numProductos cantidad inicial para cada producto.
      */
     public Expendedor(int numProductos) {
         this.depCoca = new Deposito<>();
@@ -37,9 +37,9 @@ public class Expendedor {
     /**
      * Intenta realizar la compra de un producto.
      * @param m Moneda entregada como paga.
-     * @param cual tipo de procuto del Catalogo(Enum).
+     * @param cual tipo de producto del Catalogo(Enum).
      * @trhows PagoIncorrectoException si la moneda es null.
-     * @trhows NoHayProductoException si el deposito está vacío eo el ID es erróneo.
+     * @trhows NoHayProductoException si el deposito está vacío o el ID es erróneo.
      * @trhows PagoInsuficienteException si el valor de la moneda es menor al precio.
      */
     public Producto comprarProducto(Moneda m, Catalogo cual)

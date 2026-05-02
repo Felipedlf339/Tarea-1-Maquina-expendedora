@@ -58,7 +58,7 @@ public class Expendedor {
 
         //Se intenta extraer el producto del depósito correspondiente.
         Producto p = switch (cual) {
-            case COCA_COLA -> depCoca.get();
+            case COCACOLA -> depCoca.get();
             case SPRITE -> depSprite.get();
             case FANTA -> depFanta.get();
             case SNICKERS -> depSnickers.get();

@@ -1,5 +1,6 @@
 package org.example;
 
+
 public class Expendedor {
     //Depositos genéricos para cada tipo de producto
     private Deposito<Producto> depCoca;

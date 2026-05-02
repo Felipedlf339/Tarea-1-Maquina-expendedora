@@ -16,7 +16,7 @@ public class Expendedor {
      * Constrctor que llena los depósitos
      * @param numProductos cantudad inicial para cada producto.
      */
-    public Expendedo(int numProductos) {
+    public Expendedor(int numProductos) {
         this.depCoca = new Deposito<>();
         this.depFanta = new Deposito<>();
         this.depSprite = new Deposito<>();

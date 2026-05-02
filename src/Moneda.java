@@ -1,5 +1,11 @@
 package org.example;
 
+/**
+ * Clase abstracta que representa una moneda en el sistema
+ * Las monedas son polimórficas e implementan Comparable para permitir su ordenamiento
+ * Cada moneda se identifica por su valor y su hashCode.
+ */
+
 public abstract class Moneda implements Comparable<Moneda> {
     public Moneda() {}
 

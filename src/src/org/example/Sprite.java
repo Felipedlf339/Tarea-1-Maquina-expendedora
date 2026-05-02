@@ -11,7 +11,7 @@ public class Sprite extends Bebida{
      * @param serie número de serie de la Sprite.
      */
     public Sprite(int serie) {
-        super(serie);
+        super(serie); // Llama al constructor de la clase madre Bebida.
     }
 
     /**

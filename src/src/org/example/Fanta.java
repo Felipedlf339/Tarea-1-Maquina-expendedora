@@ -11,7 +11,7 @@ public class Fanta extends Bebida {
      * @param serie número de serie de la Fanta.
      */
     public Fanta(int serie) {
-        super(serie);
+        super(serie); // Llama al constructor de la clase madre Bebida.
     }
 
     /**
